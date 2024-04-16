@@ -1,0 +1,60 @@
+﻿<Window x:Class="WpfApp1.EditEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="EditEmployee" Height="450" Width="800">
+    <Grid Background="#FFA7A7A7">
+        <TextBox x:Name="Jmeno" 
+            HorizontalAlignment="Left"
+            Height="60"
+            Margin="294,104,0,0" 
+            VerticalAlignment="Top" 
+            Width="224"/>
+
+        <TextBox x:Name="Prijmeni" 
+            HorizontalAlignment="Left"
+            Margin="294,174,0,0"
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top"
+            Width="224" 
+            Height="58"/>
+        <TextBox x:Name="ID1"
+            HorizontalAlignment="Left"
+            Margin="294,248,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Width="224" 
+            Height="60"/>
+        <TextBlock 
+            HorizontalAlignment="Left" 
+            Margin="217,120,0,0" 
+            TextWrapping="Wrap" 
+            Text="Jméno"
+            VerticalAlignment="Top" 
+            Width="68" 
+            Height="28" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left"
+            Margin="208,181,0,0" 
+            TextWrapping="Wrap" 
+            Text="Příjmení"
+            VerticalAlignment="Top"
+            Width="86" 
+            Height="54" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left"
+            Margin="234,266,0,0"
+            TextWrapping="Wrap"
+            Text="ID" 
+            VerticalAlignment="Top" 
+            Width="60" Height="22" FontSize="18"/>
+        <Button Content="Edit"
+                HorizontalAlignment="Center"
+                Height="41"
+                Margin="0,327,0,0" 
+                VerticalAlignment="Top"
+                Width="150"/>
+
+    </Grid>
+</Window>

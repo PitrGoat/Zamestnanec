@@ -1,0 +1,66 @@
+﻿<Window x:Class="WpfApp1.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="AddWindow" Height="450" Width="800">
+    <Grid Background="#FFBCD4C6">
+        <TextBox x:Name="Jmeno" 
+                 HorizontalAlignment="Left"
+                 Height="43"
+                 Margin="262,51,0,0" 
+                 VerticalAlignment="Top" 
+                 Width="182"/>
+        <DatePicker x:Name="datePicker" 
+                    HorizontalAlignment="Left" 
+                    Margin="267,227,0,0" 
+                    VerticalAlignment="Top" 
+                    Width="200"/>
+        <Button Content="Add" 
+                HorizontalAlignment="Left" 
+                Margin="297,281,0,0" 
+                VerticalAlignment="Top" 
+                Width="91"
+                Click="Add_Click" Height="41"/>
+
+        <TextBox x:Name="Prijmeni" 
+                 HorizontalAlignment="Left"
+                 Margin="262,101,0,0"
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top"
+                 Width="182" 
+                 Height="41"/>
+        <TextBox x:Name="ID1"
+                 HorizontalAlignment="Left"
+                 Margin="262,153,0,0" 
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="182" 
+                 Height="43"/>
+        <TextBlock 
+            HorizontalAlignment="Left" 
+                   Margin="207,63,0,0" 
+            TextWrapping="Wrap" 
+            Text="Jméno"
+            VerticalAlignment="Top" 
+            Width="40" 
+            Height="19"/>
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="207,112,0,0" 
+                   TextWrapping="Wrap" 
+                   Text="Příjmení"
+                   VerticalAlignment="Top"
+                   Width="45" 
+                   Height="30"/>
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="227,155,0,0"
+                   TextWrapping="Wrap"
+                   Text="ID" 
+                   VerticalAlignment="Top" 
+                   Width="30" Height="27"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="173,227,0,0" TextWrapping="Wrap" Text="Datum Narození" VerticalAlignment="Top" Width="89" RenderTransformOrigin="0.435,-0.166"/>
+
+    </Grid>
+</Window>
